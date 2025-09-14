@@ -1,6 +1,12 @@
+import { DialogDemo } from "@/components/AddNote";
 
 export default function Home() {
   return (
-   <h1>Note taking app</h1>
+    <div>
+
+
+      <h1>Note taking app</h1>
+      <DialogDemo />
+    </div>
   );
 }
