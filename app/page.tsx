@@ -1,4 +1,4 @@
-import { DialogDemo } from "@/components/AddNote";
+import { NoteCreatingModel } from "@/components/AddNote";
 
 export default function Home() {
   return (
@@ -6,7 +6,7 @@ export default function Home() {
 
 
       <h1>Note taking app</h1>
-      <DialogDemo />
+      <NoteCreatingModel />
     </div>
   );
 }
